@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(#0e1a2a, #005577); /* Degradado de azul oscuro a azul semi-claro para el fondo de la página */
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif; /* Fuente más suave y redonda */
+    margin: 0;
+    padding: 0;
+    color: #555555; /* Color de las letras grisaseo */
+  }
+  
+  header {
+    background-color: #00ffdd; /* Fondo azul claro para el encabezado */
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    animation: fadeInDown 1s ease; /* Animación de entrada */
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; /* Alinea las cajas hacia abajo */
+    align-items: center; /* Centra horizontalmente las cajas */
+    margin-top: 50px; /* Aumento del margen superior */
+    padding-bottom: 50px; /* Espacio adicional en la parte inferior */
+  }
+  
+  .box {
+    width: 600px; /* Aumento del tamaño de las cajas */
+    background: linear-gradient(rgba(14, 26, 42, 0.9), rgba(14, 26, 42, 0.7)); /* Degradado transparente para el fondo de las cajas */
+    border: 2px solid #ccc; /* Borde gris */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espacio entre cajas */
+    padding: 20px;
+    animation: fadeInUp 1s ease; /* Animación de entrada */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .box img {
+    width: 100%; /* Aumento del tamaño de las imágenes */
+    border-radius: 10px; /* Borde más redondeado */
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    color: #ffffff; /* Letras blancas para mejor contraste */
+    margin: 0 0 15px 0; /* Espacio adicional en la parte inferior */
+  }
+  
+  .box ul {
+    margin: 0;
+    padding-left: 20px; /* Sangría para las listas */
+  }
+  
+  .box ul li {
+    margin-bottom: 5px;
+  }
+  
